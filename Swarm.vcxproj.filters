@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBOTexturedQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlutFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Swarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeFBOQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBOTexturedQuad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlutFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeFBOQuad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{347554d2-c27c-429f-89a9-7dc5b9e4a13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{18dbe61a-3652-41fc-9501-56985d65d269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{aa598fb5-2650-41d9-8607-319bea8deeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Fragment Shaders">
+      <UniqueIdentifier>{be6c10da-813d-4fd8-9555-f190b7c0b676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Vertex Shaders">
+      <UniqueIdentifier>{c3321f0d-1d61-4f78-a583-eb9dbf9adc6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fliesVert.glsl">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="quadVert.glsl">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="fliesFrag.glsl">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="quadFrag.glsl">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="XGaussVert.glsl">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="YGaussVert.glsl">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="XGaussFrag.glsl">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="YGaussFrag.glsl">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="bloomFrag.glsl">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="bloomVert.glsl">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="motionBlurVert.glsl">
+      <Filter>Shader Files\Vertex Shaders</Filter>
+    </None>
+    <None Include="motionBlurFrag.glsl">
+      <Filter>Shader Files\Fragment Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

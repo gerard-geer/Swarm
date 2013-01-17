@@ -1,0 +1,29 @@
+﻿Build started 1/16/2013 10:14:37 PM.
+     1>Project "C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\Swarm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Ot /GL /Gm- /EHsc /MD /GS /Qpar /fp:fast /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt CompositeFBOQuad.cpp FBOTexturedQuad.cpp Flies.cpp Fly.cpp GLFrameBuffer.cpp GLTexture.cpp GlutFunctions.cpp Shaders.cpp Swarm.cpp
+         CompositeFBOQuad.cpp
+         FBOTexturedQuad.cpp
+         Flies.cpp
+         Fly.cpp
+         GLFrameBuffer.cpp
+         GLTexture.cpp
+         GlutFunctions.cpp
+         Shaders.cpp
+         Swarm.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\x64\Release\Swarm.exe" /NOLOGO glew32d.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\x64\Release\Swarm.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\x64\Release\Swarm.lib" /MACHINE:X64 x64\Release\CompositeFBOQuad.obj
+         x64\Release\FBOTexturedQuad.obj
+         x64\Release\Flies.obj
+         x64\Release\Fly.obj
+         x64\Release\GLFrameBuffer.obj
+         x64\Release\GLTexture.obj
+         x64\Release\GlutFunctions.obj
+         x64\Release\Shaders.obj
+         x64\Release\Swarm.obj
+     1>LINK : fatal error LNK1104: cannot open file 'freeglut.lib'
+     1>Done Building Project "C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\Swarm.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.05

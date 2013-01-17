@@ -1,0 +1,8 @@
+﻿Build started 1/16/2013 10:13:08 PM.
+     1>Project "C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\Swarm.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Platforms\ARM\PlatformToolsets\v110\Microsoft.Cpp.ARM.v110.targets(36,5): error MSB8022: Compiling Desktop applications for the ARM platform is not supported.
+     1>Done Building Project "C:\Users\Gerard\Google Drive\visual studio 2012\Projects\Swarm\Swarm\Swarm.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01
